@@ -1,5 +1,4 @@
-import { useState, useContext } from "react";
-import { useEffect } from "react/cjs/react.development";
+import { useState, useEffect, useContext } from "react";
 import FeedbackContext from "../context/FeedbackContext";
 
 function RatingSelect({ select }) {
